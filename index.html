@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="result" readonly>
+            </div>
+            <div class="buttons">
+                <button id="clear">C</button>
+                <button id="backspace">CE</button>
+                <button id="open-paren">(</button>
+                <button id="close-paren">)</button>
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+                <button id="divide">/</button>
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+                <button id="multiply">*</button>
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+                <button id="subtract">-</button>
+                <button id="zero">0</button>
+                <button id="decimal">.</button>
+                <button id="calculate">=</button>
+                <button id="add">+</button>
+                <button id="sin">sin</button>
+                <button id="cos">cos</button>
+                <button id="tan">tan</button>
+                <button id="log">log</button>
+                <button id="sqrt">sqrt</button>
+            </div>
+        </div>
+        <div class="history">
+            <h2>History</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script src="js/calculator.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/history.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
