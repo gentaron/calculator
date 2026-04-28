@@ -1,0 +1,13 @@
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# os
+.DS_Store
+Thumbs.db
+
+# build
+dist/
+build/
