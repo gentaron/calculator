@@ -11,3 +11,8 @@ Thumbs.db
 # build
 dist/
 build/
+
+# secrets
+.env
+.env.*
+!.env.example
